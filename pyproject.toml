@@ -1,0 +1,31 @@
+[project]
+name = "projrct-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rohitghosh14", email = "rohitghosh1214@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.15.0",
+    "streamlit>=1.66.0",
+]
+
+[project.scripts]
+projrct-1 = "projrct_1:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
